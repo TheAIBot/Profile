@@ -3,9 +3,19 @@
 
 @import "{{ site.theme }}";
 
-.testers {
-	color: lawngreen;
-	background: blue;
-	border-radius: 10px;
+.codeTag {
+	color: white;
+	font-family: monospace;
+	line-height: 1;
+	background-image: linear-gradient(#1384C4, #0071B1);
+	border-radius: 6px;
 	padding: 1px 4px 1px 4px;
+}
+
+.projectTag h3 {
+	margin: 15px 0 5px;
+}
+
+.projectTag p {
+	margin: 0 0 5px;
 }
