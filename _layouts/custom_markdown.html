@@ -1,0 +1,6 @@
+{% assign output = content
+    | replace: '<codeTag>', '<span class="testers">'
+    | replace: '</codeTag>', '</span>'
+%}
+
+{{output}}
