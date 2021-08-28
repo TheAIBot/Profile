@@ -1,8 +1,8 @@
 {% assign output = content
-    | replace: '<codeTag>', '<span class="codeTag">'
-    | replace: '</codeTag>', '</span>'
-    | replace: '<projectTag>', '<div class="projectTag" markdown="1">'
-    | replace: '</projectTag>', '</div>'
+    | replace: '[codeTag]', '<span class="codeTag">'
+    | replace: '[/codeTag]', '</span>'
+    | replace: '[projectTag]', '<div class="projectTag" markdown="1">'
+    | replace: '[/projectTag]', '</div>'
 %}
 
 {{output}}
